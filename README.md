@@ -9,7 +9,6 @@ https://github.com/iriumlabs/irium
 # Install OpenCL headers (once)
 apt install ocl-icd-opencl-dev
 
-cargo build --release --features gpu --bin irium-miner-gpu
 ```
 
 ## Pool mining (Stratum)
