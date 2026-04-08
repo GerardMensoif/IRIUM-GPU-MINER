@@ -14,7 +14,7 @@ apt install ocl-icd-opencl-dev
 ## Pool mining (Stratum)
 
 ```bash
-./target/release/irium-miner-gpu --pool stratum+tcp://pool.iriumlabs.org:3333 --wallet <your_address>
+./irium-miner-gpu --pool stratum+tcp://pool.iriumlabs.org:3333 --wallet <your_address>
 ```
 
 ## Solo mining (node RPC)
@@ -22,7 +22,7 @@ apt install ocl-icd-opencl-dev
 The miner connects directly to your node and submits blocks via RPC.
 
 ```bash
-./target/release/irium-miner-gpu --rpc http://127.0.0.1:38300 --wallet <your_address>
+./irium-miner-gpu --rpc http://127.0.0.1:38300 --wallet <your_address>
 ```
 
 Make sure your node is running and accessible. The RPC port must be reachable from the machine running the miner.
